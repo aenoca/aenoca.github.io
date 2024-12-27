@@ -44,14 +44,23 @@ nav a:hover {
     transition: background-color 0.3s ease, color 0.3s ease;
 }
 
+
+
 /* Content Container */
-.container {
+.bckg {
     /* max-width: 900px; */
     margin: 40px auto;
     background: white;
     padding: 30px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     border-radius: 10px;
+    align-items: center;
+    /* width: 960px; */
+}
+
+.bckg .container {
+    max-width: 960px;
+    margin: 0 auto; /* this enables self centering*/
 }
 
 h2 {
@@ -77,12 +86,22 @@ p {
     width: 120px;
     height: 120px;
     margin-right: 20px;
-    border: 3px solid #61dafb;
+    border: 3px solid #035166;
 }
+
+.container .text {
+    /* margin-left: 2rem;
+    margin-right: 60em; */
+
+    text-align: justify;
+    align-items: center;
+}
+.about 
 
 /* Links Section */
 .links {
     margin-left: 1rem;
+    align-items: right;
 }
 
 .links a {
