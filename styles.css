@@ -34,7 +34,7 @@ nav a {
     font-weight: bold;
     text-transform: none;
     letter-spacing: 1px;
-    font-size: 14px;
+    font-size: 16px;
 }
 
 nav a:hover {
@@ -63,11 +63,47 @@ nav a:hover {
     margin: 0 auto; /* this enables self centering*/
 }
 
-h2 {
+.bckg .container .text a {
+    font-size: 16px;
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.bckg .container .text a:hover {
+    text-decoration: underline;
+}
+
+/* h2 {
     font-size: 28px;
     color: #282c34;
     margin-bottom: 20px;
+} */
+
+.project {
+    margin-top: 16px;
+    
 }
+
+.project a {
+    display: block;
+    margin-bottom: 16px;
+    /* width: 100%; */
+}
+
+.project img {
+    display: inline-block;
+    width: 20%;
+    border-radius: 10%;
+}
+
+.project p {
+    display: inline-block;
+    width: 70%;
+    vertical-align: top;
+    margin-left: 16px;
+}
+
 
 p {
     line-height: 1.6;
@@ -96,7 +132,7 @@ p {
     text-align: justify;
     align-items: center;
 }
-.about 
+/* .about  */
 
 /* Links Section */
 /* .links {
@@ -109,7 +145,7 @@ p {
     color: #616161;
     text-decoration: none;
     font-weight: bold;
-    font-size: 14px;
+    font-size: 16px;
 }
 
 .links a:hover {
