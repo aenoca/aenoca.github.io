@@ -80,12 +80,11 @@ nav a:hover {
     margin-bottom: 20px;
 } */
 
-.project {
+.bckg .container .text .project {
     margin-top: 16px;
-    
 }
 
-.project .project_title {
+.bckg .container .text .project .project_title {
     display: block;
     margin-bottom: 16px;
     pointer-events: none; /* deactivate this to reactivate links */
@@ -96,13 +95,13 @@ nav a:hover {
     color:#a8d3df
 } */
 
-.project img {
+.bckg .container .text .project img {
     display: inline-block;
     width: 20%;
     border-radius: 10%;
 }
 
-.project p {
+.bckg .container .text .project p {
     display: inline-block;
     width: 70%;
     vertical-align: top;
