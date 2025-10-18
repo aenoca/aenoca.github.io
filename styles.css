@@ -63,7 +63,7 @@ nav a:hover {
     margin: 0 auto; /* this enables self centering*/
 }
 
-.bckg .container .text a {
+.bckg .container .text .project a {
     font-size: 16px;
     color: black;
     text-decoration: none;
@@ -144,13 +144,13 @@ p {
     align-items: right;
 } */
 
-.links a {
+/* .links a {
     margin-right: 1rem;
     color: #616161;
     text-decoration: none;
-    font-weight: bold;
+    /* font-weight: bold; */
     font-size: 16px;
-}
+} */
 
 .links a:hover {
     text-decoration: underline;
@@ -180,7 +180,7 @@ li {
     margin: 10px 0;
 }
 
-li a {
+/* li a {
     color: #282c34;
     text-decoration: none;
     font-weight: bold;
@@ -190,4 +190,12 @@ li a {
 li a:hover {
     color: #61dafb;
     text-decoration: underline;
+} */
+
+.publication_link {
+    font-size: 16px;
+    color: #555;
+    text-decoration: none;
+    /* font-weight: bold; */
 }
+
